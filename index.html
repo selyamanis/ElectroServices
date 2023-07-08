@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8" />
@@ -30,11 +30,21 @@
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi-phone"></i>
-                            06-33-98-66-06</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <ul class="navbar-nav my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link fs-5" href="#contact">06-33-98-66-06 <i class="bi-phone"></i></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#services">الخدمات</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#contact">للاتصال</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fs-5" href="#" id="dropdown-language" role="button" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            العربية <i class="bi bi-globe"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-language">
+                            <li><a class="dropdown-item" href="https://electroservicesfr.onrender.com/">Français</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -44,13 +54,13 @@
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-8 align-self-end">
-                    <h1 class="text-white font-weight-bold">Électricien Bâtiment</h1>
+                    <h1 class="text-white font-weight-bold">كهربائيّ</h1>
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Services de réparation et entretien d'électricité bâtiment pour les
-                        particuliers à Casablanca et régions.</p>
-                    <a class="btn btn-primary btn-xl" href="#contact">Contact</a>
+                    <p class="text-white-75 mb-5 fs-4">خدمات تصليح و صيانة الكهرباء المنزلية للأفراد في الدار البيضاء و
+                        النواحي.</p>
+                    <a class="btn btn-primary btn-xl fs-5" href="#contact">للاتصال</a>
                 </div>
             </div>
         </div>
@@ -58,41 +68,41 @@
     <!-- Services-->
     <section class="page-section" id="services">
         <div class="container">
-            <h2 class="text-center mt-0">Services</h2>
+            <h2 class="text-center mt-3 fs-2">الخدمات</h2>
             <hr class="divider" />
             <div class="row">
-                <div class="col text-center">
+                <div class="col">
                     <div class="mt-3">
-                        <div class="mb-2"><i class="bi-tools fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Réparation</h3>
-                        <ul class="text-muted mb-0 text-start">
-                            <li class="mb-2">Réparation des pannes électriques</li>
-                            <li class="mb-2">Réparation des circuits électriques</li>
-                            <li class="mb-2">Entretien de câblage électrique</li>
-                            <li class="mb-2">..</li>
+                        <div class="mb- text-center"><i class="bi-tools fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-5 fs-3 text-center">الإصلاح</h3>
+                        <ul class="text-muted mb-0 fs-5">
+                            <li class="mb-3">إصلاح الأعطال الكهربائية</li>
+                            <li class="mb-3">إصلاح الدوائر الكهربائية</li>
+                            <li class="mb-3">صيانة التمديدات الكهربائية</li>
+                            <li class="mb-3">..</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col text-center">
+                <div class="col">
                     <div class="mt-3">
-                        <div class="mb-2"><i class="bi-lightbulb fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Éclairage</h3>
-                        <ul class="text-muted mb-0 text-start">
-                            <li class="mb-2">Fixation et entretien des lampes et douilles</li>
-                            <li class="mb-2">Fixation et entretien des luminaires</li>
-                            <li class="mb-2">Fixation et entretien des interrupteurs</li>
-                            <li class="mb-2">..</li>
+                        <div class="mb-3 text-center"><i class="bi-lightbulb fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-3 fs-3 text-center">الإضاءة</h3>
+                        <ul class="text-muted mb-0 fs-5">
+                            <li class="mb-3">تركيب و صيانة المصابيح و المآخذ</li>
+                            <li class="mb-3">تركيب و صيانة الفوانيس</li>
+                            <li class="mb-3">تركيب و صيانة المفاتيح</li>
+                            <li class="mb-3">..</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col text-center">
+                <div class="col">
                     <div class="mt-3">
-                        <div class="mb-2"><i class="bi-plug fs-1 text-primary"></i></div>
-                        <h3 class="h4 mb-2">Courant</h3>
-                        <ul class="text-muted mb-0 text-start">
-                            <li class="mb-2">Fixation et entretien des prises de courant électrique</li>
-                            <li class="mb-2">Fixation et entretien des fils électriques</li>
-                            <li class="mb-2">..</li>
+                        <div class="mb-3 text-center"><i class="bi-plug fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-3 fs-3 text-center">التيار</h3>
+                        <ul class="text-muted mb-0 fs-5">
+                            <li class="mb-3">تركيب و صيانة مآخذ التيار الكهربائي</li>
+                            <li class="mb-3">تركيب و صيانة الأسلاك الكهربائية</li>
+                            <li class="mb-3">..</li>
                         </ul>
                     </div>
                 </div>
@@ -104,13 +114,13 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="mt-0">Contact</h2>
+                    <h2 class="mt-3 fs-2">للاتصال</h2>
                     <hr class="divider" />
-                    <p class="text-muted mt-5 mb-5">Pour demander nos services à Casablanca et régions, merci d'envoyer votre localisation au numéro (whatsapp) :</p>
+                    <p class="text-muted mt-5 mb-5 fs-5">لِطلب خدماتنا في الدار البيضاء و نواحيها، يُرجى إرسال موقعك على الرقم (localisation whatsapp) :</p>
                 </div>
             </div>
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0 fs-5">
                     <i class="bi-phone fs-2 mb-3 text-muted"></i>
                     <div>06-33-98-66-06</div>
                 </div>
@@ -123,11 +133,11 @@
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col">
-                    <h4 class="text-uppercase mb-4">Adresse</h4>
+                    <h4 class="text-uppercase mb-4">العنوان</h4>
                     <p class="lead mb-0">
-                        Hay Youssra Rue 2 Numero 3
+                        حي يسرى الزنقة 2 الرقم 3
                         <br />
-                        Casablanca, Maroc
+                        الدار البيضاء، المغرب
                     </p>
                 </div>
             </div>
